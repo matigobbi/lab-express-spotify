@@ -1,13 +1,9 @@
-<div class="div">
-    
-    {{#each artists}}
-<div class="photos"> 
-<img  src={{this.images.[0].url}}>
-
-{{ this.name}}
-
-
-<a href="/albums/{{this.id}}">View Albums</a>
-</div>
-{{/each}}
+<div class="artistsContainer">
+        {{#each artists}}
+    <div class="infoContainer"> 
+    <img  src="{{images.[0].url}}">
+        {{ this.name}}
+    <a href="/albums/{{this.id}}">View Albums</a>
+    </div>
+    {{/each}}
 </div>

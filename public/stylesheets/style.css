@@ -1,8 +1,18 @@
+.artistsContainer{
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    height: 200px;
+    margin: 20px 30px;
+}
+
+
 .background{
     background-image: url("/images/spotify-background.jpeg");
-    background-size: 500px;
+    background-size: contain;
     background-repeat: no-repeat;
-    height: 500px;
+    height: 100vh;
+    text-align: center;
 }
 
 .nombre{
@@ -10,15 +20,8 @@
     text-align: center;
 }
 
-.div{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-   height: 200px;
-}
-
-.photos {
+.infoContainer {
     text-align: center;
-  
+    width: 30vw;
 }
 
